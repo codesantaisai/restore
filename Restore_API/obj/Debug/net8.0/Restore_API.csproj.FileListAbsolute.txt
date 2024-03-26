@@ -134,3 +134,4 @@ C:\Users\harry potter\source\repos\Restore\Restore_API\obj\Debug\net8.0\refint\R
 C:\Users\harry potter\source\repos\Restore\Restore_API\obj\Debug\net8.0\Restore_API.pdb
 C:\Users\harry potter\source\repos\Restore\Restore_API\obj\Debug\net8.0\Restore_API.genruntimeconfig.cache
 C:\Users\harry potter\source\repos\Restore\Restore_API\obj\Debug\net8.0\ref\Restore_API.dll
+C:\Users\harry potter\source\repos\Restore\Restore_API\obj\Debug\net8.0\Restore_API.sourcelink.json
