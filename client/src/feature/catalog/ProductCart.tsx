@@ -6,8 +6,7 @@ interface Props{
 }
 const ProductCart = ({product}:Props) => {
   return (
-<>
-<Card sx={{mt:10}}>
+<Card sx={{mt:2}}>
     <CardHeader
     avatar={
         <Avatar sx={{bgcolor:"secondary.main"}}>
@@ -25,11 +24,11 @@ const ProductCart = ({product}:Props) => {
         title={product.name}
       />
       <CardContent>
-        <Typography gutterBottom color="secondary" variant="h5">
+        <Typography gutterBottom color="secondary" variant="h5" component="div">
           ${(product.price/100).toFixed(2)}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {product.brand}/{product.type}
+          {product.brand} / {product.type}
         </Typography>
       </CardContent>
       <CardActions>
@@ -37,7 +36,6 @@ const ProductCart = ({product}:Props) => {
         <Button size="small">View</Button>
       </CardActions>
     </Card>
-</>
   )
 }
 
