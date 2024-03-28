@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Restore_API.Data;
+using Restore_API.MiddleWare;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -43,6 +44,8 @@ static async void UpdateDatabaseAsync(IHost host)
 }
 #endregion
 var app = builder.Build();
+
+app.UseMiddleware<ExceptionMiddleware>();
 UpdateDatabaseAsync(app);
 //var serviceProvider = app.Services;
 //await SeedData.see
