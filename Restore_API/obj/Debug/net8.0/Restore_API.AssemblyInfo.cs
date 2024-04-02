@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Restore_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88bd578b79812f2196d064de3034b30e1098ecc6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0361aa661ceb1e0de65e9195aa4beab7345888bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Restore_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Restore_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
