@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\harry potter\\source\\repos\\Restore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\controllers\\buggycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\restore_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\restore_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\MiddleWare\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Restore_API\\MiddleWare\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\MiddleWare\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Restore_API\\MiddleWare\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAzwCYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:14:36.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Restore_API.csproj",
+              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Restore_API.csproj",
+              "RelativeDocumentMoniker": "Restore_API\\Restore_API.csproj",
+              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Restore_API.csproj",
+              "RelativeToolTip": "Restore_API\\Restore_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T06:14:02.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuggyController.cs",
+              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Controllers\\BuggyController.cs",
+              "RelativeDocumentMoniker": "Restore_API\\Controllers\\BuggyController.cs",
+              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Controllers\\BuggyController.cs",
+              "RelativeToolTip": "Restore_API\\Controllers\\BuggyController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAswC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:46:29.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Program.cs",
+              "RelativeDocumentMoniker": "Restore_API\\Program.cs",
+              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Program.cs",
+              "RelativeToolTip": "Restore_API\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAwCsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T09:07:24.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
