@@ -13,7 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 builder.Services.AddCors(options => 
 {
-    options.AddPolicy("CustomPolicy", x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000"));
+    options.AddPolicy("CustomPolicy", x => x.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000"));
 });
 #endregion
 builder.Services.AddControllers();
