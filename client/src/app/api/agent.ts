@@ -2,7 +2,7 @@ import axios,{AxiosError, AxiosResponse} from "axios";
 import { toast } from "react-toastify";
 
 const sleep = ()=> new Promise(resolve=>setTimeout(resolve,500))
-axios.defaults.baseURL = "https://localhost:7257/api/";
+axios.defaults.baseURL = "http://localhost:5207/api/";
 axios.defaults.withCredentials = true;
 
 const responseBody = (response:AxiosResponse)=>response.data;
