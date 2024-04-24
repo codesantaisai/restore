@@ -6,10 +6,12 @@ import ProductDetails from "../../feature/catalog/ProductDetails";
 import AboutPage from "../../feature/about/AboutPage";
 import ContactPage from "../../feature/contact/ContactPage";
 import BasketPage from "../../feature/basket/BasketPage";
+import CheckoutPage  from "../../feature/checkout/CheckoutPage";
 
 export const router  = createBrowserRouter([
     {
         path:'/',
+        
         element:<App/>,
         children:[
             {path:" ",element:<HomePage/>},
@@ -19,6 +21,7 @@ export const router  = createBrowserRouter([
             {path:"contact",element:<ContactPage/>},
             {path:"",element:<HomePage/>},
             {path:"basket",element:<BasketPage/>},
+            {path:"checkout",element:<CheckoutPage/>},
         ]
     }
 ]);

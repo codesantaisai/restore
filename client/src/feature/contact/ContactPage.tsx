@@ -6,7 +6,7 @@ const ContactPage = () => {
 
 
   useEffect(()=>{
-    axios.get('https://localhost:7257/api/Basket')
+    axios.get('http://localhost:5207/api/Basket')
     .then((response: AxiosResponse) => {
       // Handle the response data
       console.log(response.data);
