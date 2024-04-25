@@ -10,8 +10,7 @@ import CheckoutPage  from "../../feature/checkout/CheckoutPage";
 
 export const router  = createBrowserRouter([
     {
-        path:'/',
-        
+        path:'/',   
         element:<App/>,
         children:[
             {path:" ",element:<HomePage/>},
