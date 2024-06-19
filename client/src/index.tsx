@@ -1,22 +1,19 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import '../src/app/layout/Style.css'
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
-import { RouterProvider } from 'react-router-dom';
-import { router } from './app/routes/routes.tsx';
-import { StoreProvider } from './context/StoreContext.tsx';
-import { Provider } from 'react-redux';
-import { store } from './app/store/configureStore.tsx';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "../src/app/layout/Style.css";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./app/routes/routes.tsx";
+import { Provider } from "react-redux";
+import { store } from "./app/store/configureStore.tsx";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <StoreProvider>
-      <Provider store={store}>
-        <RouterProvider router={router}/>
-      </Provider>
-    </StoreProvider>
-  </React.StrictMode>,
-)
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
+  </React.StrictMode>
+);
