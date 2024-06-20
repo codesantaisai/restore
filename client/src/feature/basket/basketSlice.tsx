@@ -22,6 +22,17 @@ export const addBasketItemAsync = createAsyncThunk<
     console.log(error);
   }
 });
+
+// export const removeBasketItemAsync = createAsyncThunk<Basket,{ productId: number; quantity?: number }>(
+//   "basket/removeBasketItemAsync",
+//   async({productId,quantity})=>{
+//     try{
+//       return await agent.re
+//     }catch(error){
+
+//     }
+//   }
+// )
 export const basketSlice = createSlice({
   name: "basket",
   initialState,

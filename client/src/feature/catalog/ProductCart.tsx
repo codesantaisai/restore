@@ -12,7 +12,6 @@ interface Props{
 const ProductCart = ({product}:Props) => {
   const {status} = useAppSelector(state=>state.basket);
   const dispatch = useAppDispatch();
-  
   return (
 <Card sx={{mt:2}}>
     <CardHeader
