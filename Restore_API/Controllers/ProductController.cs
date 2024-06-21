@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Restore_API.Data;
+using Restore_API.Extentions;
 using Restore_API.Models;
 
 namespace Restore_API.Controllers
@@ -18,10 +19,12 @@ namespace Restore_API.Controllers
 
         [ProducesResponseType(StatusCodes.Status200OK)]
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProducts()
+        public async Task<ActionResult<List<Product>>> GetProducts(string orderBy)
         {
-            var products = await _dbContext.Products.ToListAsync();
-            return Ok(products);
+            var query = _dbContext.Products.Sort(orderBy).AsQueryable();
+
+            
+            return await query.ToListAsync();
         }
 
         [ProducesResponseType(StatusCodes.Status200OK)]
