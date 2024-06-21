@@ -19,9 +19,9 @@ namespace Restore_API.Controllers
 
         [ProducesResponseType(StatusCodes.Status200OK)]
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProducts(string orderBy)
+        public async Task<ActionResult<List<Product>>> GetProducts(string orderBy,string searchTerm, string brands, string types)
         {
-            var query = _dbContext.Products.Sort(orderBy).AsQueryable();
+            var query = _dbContext.Products.Filter(brands, types).Search(searchTerm).Sort(orderBy).AsQueryable();
 
             
             return await query.ToListAsync();
