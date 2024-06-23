@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Restore_API.Data;
 using Restore_API.Extentions;
 using Restore_API.Models;
+using Restore_API.RequestHandler;
+using System.Text.Json;
 
 namespace Restore_API.Controllers
 {
@@ -19,12 +20,18 @@ namespace Restore_API.Controllers
 
         [ProducesResponseType(StatusCodes.Status200OK)]
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProducts(string orderBy,string searchTerm, string brands, string types)
+        public async Task<ActionResult<PageList<Product>>> GetProducts([FromQuery]ProductParams productParams)
         {
-            var query = _dbContext.Products.Filter(brands, types).Search(searchTerm).Sort(orderBy).AsQueryable();
+            var query = _dbContext.Products
+                .Filter(productParams.Brands, productParams.Types)
+                .Search(productParams.SearchTerm)
+                .Sort(productParams.OrderBy).AsQueryable();
 
-            
-            return await query.ToListAsync();
+
+            var products = await PageList<Product>.ToPagedList(query, productParams.PageNumber, productParams.PageSize);
+            Response.Headers.Add("Pagination", JsonSerializer.Serialize(products.MetaData));
+
+            return products;
         }
 
         [ProducesResponseType(StatusCodes.Status200OK)]
