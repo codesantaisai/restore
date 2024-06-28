@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\harry potter\\source\\repos\\Restore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\requesthandler\\pagelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\requesthandler\\pagelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\extentions\\httpextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\extentions\\httpextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\requesthandler\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\requesthandler\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\requesthandler\\productparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\requesthandler\\productparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\requesthandler\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\requesthandler\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|c:\\users\\harry potter\\source\\repos\\restore\\restore_api\\extentions\\productextenstions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE554CDB-896D-43F3-8A9C-4EDF957AE3E2}|Restore_API\\Restore_API.csproj|solutionrelative:restore_api\\extentions\\productextenstions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,65 +35,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PageList.cs",
-              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\RequestHandler\\PageList.cs",
-              "RelativeDocumentMoniker": "Restore_API\\RequestHandler\\PageList.cs",
-              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\RequestHandler\\PageList.cs*",
-              "RelativeToolTip": "Restore_API\\RequestHandler\\PageList.cs*",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBsAAAAFAAAA",
+              "Title": "HttpExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Extentions\\HttpExtentions.cs",
+              "RelativeDocumentMoniker": "Restore_API\\Extentions\\HttpExtentions.cs",
+              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Extentions\\HttpExtentions.cs",
+              "RelativeToolTip": "Restore_API\\Extentions\\HttpExtentions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T04:20:24.543Z",
+              "WhenOpened": "2024-06-23T14:20:40.665Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MetaData.cs",
-              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\RequestHandler\\MetaData.cs",
-              "RelativeDocumentMoniker": "Restore_API\\RequestHandler\\MetaData.cs",
-              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\RequestHandler\\MetaData.cs",
-              "RelativeToolTip": "Restore_API\\RequestHandler\\MetaData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T04:14:47.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductParams.cs",
-              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\RequestHandler\\ProductParams.cs",
-              "RelativeDocumentMoniker": "Restore_API\\RequestHandler\\ProductParams.cs",
-              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\RequestHandler\\ProductParams.cs",
-              "RelativeToolTip": "Restore_API\\RequestHandler\\ProductParams.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T06:33:38.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PaginationParams.cs",
-              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\RequestHandler\\PaginationParams.cs",
-              "RelativeDocumentMoniker": "Restore_API\\RequestHandler\\PaginationParams.cs",
-              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\RequestHandler\\PaginationParams.cs",
-              "RelativeToolTip": "Restore_API\\RequestHandler\\PaginationParams.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T06:27:39.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductExtenstions.cs",
-              "DocumentMoniker": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Extentions\\ProductExtenstions.cs",
-              "RelativeDocumentMoniker": "Restore_API\\Extentions\\ProductExtenstions.cs",
-              "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Extentions\\ProductExtenstions.cs",
-              "RelativeToolTip": "Restore_API\\Extentions\\ProductExtenstions.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAYwBsAAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T05:15:23.366Z"
             },
             {
               "$type": "Document",
@@ -119,10 +53,9 @@
               "RelativeDocumentMoniker": "Restore_API\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\harry potter\\source\\repos\\Restore\\Restore_API\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Restore_API\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAB2AAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAtwB4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T05:02:00.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T05:02:00.253Z"
             }
           ]
         }

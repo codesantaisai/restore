@@ -29,8 +29,7 @@ namespace Restore_API.Controllers
 
 
             var products = await PageList<Product>.ToPagedList(query, productParams.PageNumber, productParams.PageSize);
-            Response.Headers.Add("Pagination", JsonSerializer.Serialize(products.MetaData));
-
+            Response.AddPaginationHeader(products.MetaData);
             return products;
         }
 
