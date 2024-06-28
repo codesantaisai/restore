@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Restore_API.Data;
 using Restore_API.Extentions;
 using Restore_API.Models;
@@ -45,6 +46,16 @@ namespace Restore_API.Controllers
             
 
             return Ok(products);
+        }
+
+
+        [HttpGet("filters")]
+        
+        public async Task<IActionResult> GetFilters()
+        {
+            var brands = await _dbContext.Products.Select(p=>p.Brand).Distinct().ToListAsync();
+            var types = await _dbContext.Products.Select(p=>p.Type).Distinct().ToListAsync();
+            return Ok(new {brands,types});
         }
 
     }
