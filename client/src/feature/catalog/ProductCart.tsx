@@ -26,12 +26,12 @@ const ProductCart = ({product}:Props) => {
     }}
 />
       <CardMedia
-        sx={{ height: 140,backgroundSize:"contain",bgcolor:"primary.light" }}
+        sx={{ height: 110,backgroundSize:"contain",bgcolor:"primary.light" }}
         image={product.pictureUrl}
         title={product.name}
       />
       <CardContent>
-        <Typography gutterBottom color="secondary" variant="h5" component="div">
+        <Typography gutterBottom color="secondary" variant="h5">
          {currencyFormat(product.price)}
         </Typography>
         <Typography variant="body2" color="text.secondary">
